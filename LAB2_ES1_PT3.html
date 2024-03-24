@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8">
+        <title>Esercizio 2.1</title>
+        <meta name="author" content="Aimar Paolo">
+        <meta name="keywords" content="html">
+        <link rel="next" href="esercizio8_lab1.html">
+        <link rel="next" href="esercizio2_lab1.html">
+        <link rel="next" href="esercizio1_lab1.html">
+        <link rel="icon" type="image/png" href="html5_logo.png">
+    </head>
+    <body>
+        <header>
+            <h1>Men&ugrave; per presentarmi</h1>
+            <h2>Nel men&ugrave; sono presenti diverse pagine web, la prima descrive il mio Curriculum Vitae mentre la seconda descrive la mia vita brevemente</h2>
+        </header>
+        <nav>
+            <main>
+                <ol>
+                    <li><a href="esercizio2_lab1.html">Curriculum Vitae</a></li>
+                    <li><a href="esercizio1_lab1.html">Vita Personale</a></li>
+                    <li><a href="esercizio8_lab1.html">Voti libretto</a></li>
+                </ol>
+            </main>
+        </nav>
+        <footer>
+            <p>Autore: Aimar Paolo</p>
+            <address>email: <a href="mailto:paoloaimar0705@gmail.com">paoloaimar0705@gmail.com</a></address>
+        </footer>
+        <img src="html5_logo.png" alt="logo html 5" width="60" height="60">
+        <!--in questo caso per creare l'immagine che riconduce a determinati link è necessario utilizzare il tag map-->
+        <img src="https://security.polito.it/img/polito.gif" alt="logo del politecnico non caricato correttamente" usemap="#icona_politecnico" width="100" height="100">
+        <map name="icona_politecnico">
+            <area shape="rect" coords="0,0,100,50" href="https://www.polito.it/didattica" alt="non carica il link del politecnico">
+            <area shape="rect" coords="0,100,100,50" href="http://www.comune.torino.it/" alt="non carica il sito del comune di torino">
+        </map>
+    </body>
+</html>
