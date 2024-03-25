@@ -13,13 +13,31 @@ body{
   counter-reset: contatore;
 }
 
+#background_1{
+    background: no-repeat;
+}
+
 p::first-letter{
     font-weight: bold;
     size: 3;
 }
+a:link{
+    color:brown
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    background-color: aqua;
+    background-image: hide;
+    color:rgb(226, 177, 43)
+}
 a.puntato::before{
     counter-increment: contatore;
     content: counter(contatore)"."
+}
+a:active{
+    background-color: darkgreen;
 }
 /*
 a.puntato::after{
