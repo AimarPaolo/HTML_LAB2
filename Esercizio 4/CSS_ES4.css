@@ -1,12 +1,34 @@
 /*creo così un commento nella pagina CSS*/
 body{
     font-family: Helvetica, Arial, Sans-Serif;
-    background-color: black;
     color: white;
+    background-color: darkslategrey;
     line-height: 1.1;
+    background-image: url(single_background.jpeg);
+    font-size: "200%"; 
+    background-repeat: repeat; /*in questo caso lo fa in tutte le direzioni*/
+    /*nel caso volessi l'immagine ripetuta un certo numero di volte, 
+    devo scrivere background-repeat: no-repeat*/
+  /*  background-size: cover; */
+  counter-reset: contatore;
+}
+
+#background_1{
     background: no-repeat;
 }
 
+p::first-letter{
+    font-weight: bold;
+    size: 3;
+}
+a.puntato::before{
+    counter-increment: contatore;
+    content: counter(contatore)"."
+}
+/*
+a.puntato::after{
+    content:"\A"
+}*/
 body a{
     color: lightblue
 }
@@ -21,7 +43,6 @@ td.centrato{
 }
 figure{
     text-align: center;
-    opacity: 0.6;
 }
 footer{
     font-family: serif;
