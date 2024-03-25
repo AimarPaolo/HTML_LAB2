@@ -19,25 +19,33 @@
         <nav>
             <main>
                 <figure>
-                    <img src="apparizione_madonna.jpeg" alt="la madonna è scomparsa">
+                    <img src="immagine_persona.jpeg" type="jpeg" alt="la madonna è scomparsa">
                 </figure>
                 <ol>
                     <li><a href="LAB2_ES1_PT1.html">Curriculum Vitae</a></li>
                     <li><a href="LAB2_ES1_PT2.html">Vita Personale</a></li>
                     <li><a href="LAB2_ES1_PT4.html">Voti libretto</a></li>
                 </ol>
+                <p class="citazione">"Ciò che non ci uccide ci rende più forti." - Friedrich Nietzsche</p>
             </main>
         </nav>
         <footer>
             <p>Autore: Aimar Paolo</p>
             <address>email: <a href="mailto:paoloaimar0705@gmail.com">paoloaimar0705@gmail.com</a></address>
         </footer>
-        <img src="html5_logo.png" alt="logo html 5" width="60" height="60">
-        <!--in questo caso per creare l'immagine che riconduce a determinati link è necessario utilizzare il tag map-->
-        <img src="https://security.polito.it/img/polito.gif" alt="logo del politecnico non caricato correttamente" usemap="#icona_politecnico" width="100" height="100">
-        <map name="icona_politecnico">
-            <area shape="rect" coords="0,0,100,50" href="https://www.polito.it/didattica" alt="non carica il link del politecnico">
-            <area shape="rect" coords="0,100,100,50" href="http://www.comune.torino.it/" alt="non carica il sito del comune di torino">
+        <img src="youtube.png" type="png" alt="youtube not supported" usemap="#icona_youtube">
+        <map name="icona_youtube">
+            <!--Le coordinate (x1,y1,x2,y2) dell'attributo "coords" si riferiscono agli angoli in alto a sinistra e in basso a destra dell'area che vogliamo prendere in considerazione,
+         per cui considerando il 100% dell'immagine, e dovendola dividere a metà, 
+         Prima metà (sito del politecnico) -> x1=0, x2=100 (in orizzontale prendiamo tutta l'immagine), y1=0, y2=50 (in verticale la dividiamo a metà)
+         Seconda metà (sito del comune) -> x1=0, x2=100, y1=50, y2=100 (prendiamo la seconda metà da 50 a 100 in verticale)
+         -->
+            <area shape="rect" coords="0,0,100,100" href="https://www.youtube.com/channel/UCvWm3h_Aeo8WaY2Wr6VGQDA" alt="link youtube">
         </map>
+        <img src="facebook.jpeg" type="jpeg" alt="facebook not supported" usemap="#icona_facebook">
+        <map name="icona_facebook">
+            <area shape="rect" coords="0,0,100,100" href="https://www.facebook.com/paolo.aimar.12" alt="facebook link not working">
+        </map>
+    
     </body>
 </html>
