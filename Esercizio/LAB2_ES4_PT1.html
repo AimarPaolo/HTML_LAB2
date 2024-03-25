@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="utf-8">
+        <title>Esercizio 2.1</title>
+        <meta name="author" content="Aimar Paolo">
+        <meta name="keywords" content="html">
+        <link rel="stylesheet" type="text/css" href="CSS_ES1.css">
+        <link rel="next" href="LAB2_ES1_PT1.html">
+        <link rel="next" href="LAB2_ES1_PT2.html">
+        <link rel="next" href="LAB2_ES1_PT4.html">
+        <link rel="icon" type="image/png" href="html5_logo.png">
+    </head>
+    <body>
+        <header>
+            <h1>Men&ugrave; per presentarmi</h1>
+            <h2>Nel men&ugrave; sono presenti diverse pagine web, la prima descrive il mio Curriculum Vitae mentre la seconda descrive la mia vita brevemente</h2>
+        </header>
+        <nav>
+            <main>
+                <figure>
+                    <img src="immagine_persona.jpeg" type="jpeg" alt="la madonna è scomparsa">
+                </figure>
+                <ol>
+                    <li><a href="LAB2_ES1_PT1.html">Curriculum Vitae</a></li>
+                    <li><a href="LAB2_ES1_PT2.html">Vita Personale</a></li>
+                    <li><a href="LAB2_ES1_PT4.html">Voti libretto</a></li>
+                </ol>
+                <p class="citazione">"Ciò che non ci uccide ci rende più forti." - Friedrich Nietzsche</p>
+            </main>
+        </nav>
+        <footer>
+            <p>Autore: Aimar Paolo</p>
+            <address>email: <a href="mailto:paoloaimar0705@gmail.com">paoloaimar0705@gmail.com</a></address>
+        </footer>
+        <img src="youtube.png" type="png" alt="youtube not supported" usemap="#icona_youtube" width="100">
+        <map name="icona_youtube">
+            <!--Le coordinate (x1,y1,x2,y2) dell'attributo "coords" si riferiscono agli angoli in alto a sinistra e in basso a destra dell'area che vogliamo prendere in considerazione,
+         per cui considerando il 100% dell'immagine, e dovendola dividere a metà, 
+         Prima metà (sito del politecnico) -> x1=0, x2=100 (in orizzontale prendiamo tutta l'immagine), y1=0, y2=50 (in verticale la dividiamo a metà)
+         Seconda metà (sito del comune) -> x1=0, x2=100, y1=50, y2=100 (prendiamo la seconda metà da 50 a 100 in verticale)
+         -->
+            <area shape="rect" coords="0,0,100,100" href="https://www.youtube.com/channel/UCvWm3h_Aeo8WaY2Wr6VGQDA" alt="link youtube">
+        </map>
+        <img src="facebook.jpeg" type="jpeg" alt="facebook not supported" usemap="#icona_facebook" width="100">
+        <map name="icona_facebook">
+            <area shape="rect" coords="0,0,100,100" href="https://www.facebook.com/paolo.aimar.12" alt="facebook link not working">
+        </map>
+    
+    </body>
+</html>
