@@ -1,2 +1,29 @@
 /*creo così un commento nella pagina CSS*/
-body{font-family: Helvetica, Arial, Sans-Serif}
+body{
+    font-family: Helvetica, Arial, Sans-Serif;
+    background-color: black;
+    color: white;
+    line-height: 1.1;
+}
+
+body a{
+    color: lightblue
+}
+tr.minore24{
+    color:pink
+}
+tr.maggiore24{  /* possibile anche omettere tr*/
+    color: greenyellow
+}
+td.centrato{
+    text-align: center;
+}
+figure{
+    text-align: center;
+    opacity: 0.7;
+}
+footer{
+    font-family: serif;
+     font-style: italic; 
+     font-size: small;
+    }
