@@ -1,0 +1,37 @@
+/*creo così un commento nella pagina CSS*/
+body{
+    font-family: Helvetica, Arial, Sans-Serif;
+    background-color: black;
+    color: white;
+    line-height: 1.1;
+    background: no-repeat;
+}
+
+body a{
+    color: lightblue
+}
+tr.minore24{
+    color:pink
+}
+tr.maggiore24{  /* possibile anche omettere tr*/
+    color: greenyellow
+}
+td.centrato{
+    text-align: center;
+}
+figure{
+    text-align: center;
+    opacity: 0.6;
+}
+footer{
+    font-family: serif;
+     font-style: italic; 
+     font-size: small;
+    }
+p.citazione{
+    text-align: center;
+    font-style: italic;
+}
+img{
+    width: 100;
+}
