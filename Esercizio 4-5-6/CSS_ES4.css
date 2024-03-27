@@ -12,6 +12,9 @@ body{
   /*  background-size: cover; */
   counter-reset: contatore;
 }
+.puntato{
+    display: block;
+}
 
 #background_1{
     background: no-repeat;
@@ -22,10 +25,10 @@ p::first-letter{
     size: 3;
 }
 a:link{
-    color:brown
+    color: rgb(208, 208, 20);
 }
 a:visited{
-    color: brown;
+    color: rgb(208, 208, 20);
 }
 a:hover{
     background-color: aqua;
